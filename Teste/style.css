@@ -8,7 +8,7 @@
 html,
 body {
     height: 100%;
-    background: linear-gradient(#444DFF, #4548e6);
+    background: linear-gradient(#444DFF, #2a2cc2, #090a57);
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: white;
@@ -26,13 +26,14 @@ nav {
 
     flex-shrink: 0;
     border: 2px solid #FFF;
-    background: #5C60FF;
-    border-radius: 20px;
+    background: #5153e0;
+    border-radius: 3px;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
 nav>img {
     align-self: flex-start;
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
 nav>ul {
@@ -47,7 +48,10 @@ nav>ul>input {
     border-radius: 30px;
     background-color: #EBEAEA;
     border: 2px solid #5B3BB8;
-    filter: drop-shadow(10px 10px 10px rgb(123, 35, 254));
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 
 
@@ -56,11 +60,21 @@ nav>ul>button {
     border-radius: 30px;
     border: 2px solid #FFF;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     width: 100px;
     height: 37px;
-    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
 
+.botaoImagem img {
+    width: 19px;
+    align-items: center;
+}
+
+
+
+nav > button > img {
+    width: 1px;
 }
 
 /* ==================== CORPO DO SITE =========================================================== */
@@ -84,6 +98,7 @@ main>.container {
     background-color: #FFF;
     padding: 20px;
     gap: 8px;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
 main img {
@@ -105,34 +120,78 @@ main>.container>.linha1,
     transform: rotate(180deg);
     padding-left: 10px;
     border: #FFF;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
 #seta2 {
     width: 70px;
     padding-left: 10px;
     border: #FFF;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
+/*---------------------------------------- GRADE SECUNDÁRIA ------------------------------------------- */
 
-
-
-
-/* .gradeInicial,
-.gradeInicial-1 {
+.gradeSecundaria {
+    margin-top: 60px;
+    background: linear-gradient(#141697, #2a2cc2, #090a57);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    background-color: white;
-    padding: 20px;
-    max-width: 600px;
-    /* Ajuste a largura máxima conforme necessário */
+
+    padding-top: 120px;
 
 }
 
-/* .gradeInicial img,
-.gradeInicial-1 img {
-    align-items: center;
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}  */
+.carrosel {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.jogos {
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    width: 220px;
+}
+
+.jogos button {
+    width: 190px;
+    height: 39px;
+    background-color: #5C60FF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.jogos .padding {
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.jogos p {
+    color: #000;
+    text-align: center;
+    font-family: JejuGothic, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.jogos img {
+    width: 220px;
+}
+
+.estudio .titulos {
+    padding: 20px; 
+}
+
+section > h1 {
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+
