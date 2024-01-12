@@ -27,66 +27,90 @@ nav {
     flex-shrink: 0;
     border: 2px solid #FFF;
     background: #5C60FF;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
-nav > img {
+nav>img {
     align-self: flex-start;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
+    gap: 5px;
 }
 
-nav > ul > input {
-    max-width: 500px;
-    height: 30px;
+nav>ul>input {
+    width: 1100px;
+    height: 35px;
     border-radius: 30px;
     background-color: #EBEAEA;
     border: 2px solid #5B3BB8;
+    filter: drop-shadow(10px 10px 10px rgb(123, 35, 254));
 }
 
 
-nav > ul > button {
+nav>ul>button {
     background-color: #5B3BB8;
     border-radius: 30px;
     border: 2px solid #FFF;
     color: white;
     font-size: 16px;
     width: 100px;
-    height: 30px;
+    height: 37px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.25));
+
 }
 
 /* ==================== CORPO DO SITE =========================================================== */
 
-main{
+main {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    align-items: center;
 }
 
-main > .container{
+main>.container {
     margin-top: 50px;
     width: fit-content;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 
     border-radius: 10px;
     background-color: #FFF;
-    padding: 10px;
-    gap: 5px;
+    padding: 20px;
+    gap: 8px;
 }
 
-main > div > img{
+main img {
     display: flex;
     flex: wrap;
-    max-width: 638px;
-    border: #444DFF 5px solid;
+    max-width: 500px;
+    border: #5B3BB8 5px solid;
     border-radius: 2px;
+}
+
+main>.container>.linha1,
+.linha2 {
+    display: flex;
+    gap: 10px;
+}
+
+#seta1 {
+    width: 70px;
+    transform: rotate(180deg);
+    padding-left: 10px;
+    border: #FFF;
+}
+
+#seta2 {
+    width: 70px;
+    padding-left: 10px;
+    border: #FFF;
 }
 
 
