@@ -5,40 +5,6 @@
     text-decoration: none;
 }
 
-body {
-    font-size: 100%;
-}
-
-
-nav {
-    display: flex;
-    padding: 0px 10px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #FFF;
-    background: #5C60FF;
-    border-radius: 20px;
-    padding-right: 34px;
-}
-
-button {
-    background-color: #5B3BB8;
-    border-radius: 30px;
-    border: 2px solid #FFF;
-    color: white;
-    font-size: 16px;
-    width: 100px;
-    height: 30px;
-}
-
-input {
-    border-radius: 15px;
-    width: 1084px;
-    height: 30px;
-    background-color: #EBEAEA;
-    border: 2px solid #5B3BB8;
-}
-
 html,
 body {
     height: 100%;
@@ -48,7 +14,86 @@ body {
     color: white;
 }
 
-.gradeInicial,
+/* ==================== NAV =========================================================== */
+
+nav {
+    display: flex;
+    /* height: 127px; */
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    flex-shrink: 0;
+    border: 2px solid #FFF;
+    background: #5C60FF;
+    border-radius: 20px;    
+}
+
+nav > img {
+    align-self: flex-start;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav > ul > input {
+    max-width: 500px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #EBEAEA;
+    border: 2px solid #5B3BB8;
+}
+
+
+nav > ul > button {
+    background-color: #5B3BB8;
+    border-radius: 30px;
+    border: 2px solid #FFF;
+    color: white;
+    font-size: 16px;
+    width: 100px;
+    height: 30px;
+}
+
+/* ==================== CORPO DO SITE =========================================================== */
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+main > .container{
+    margin-top: 50px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border-radius: 10px;
+    background-color: #FFF;
+    padding: 10px;
+    gap: 5px;
+}
+
+main > div > img{
+    display: flex;
+    flex: wrap;
+    max-width: 638px;
+    border: #444DFF 5px solid;
+    border-radius: 2px;
+}
+
+
+
+
+
+/* .gradeInicial,
 .gradeInicial-1 {
     display: flex;
     justify-content: center;
@@ -60,10 +105,10 @@ body {
 
 }
 
-.gradeInicial img,
+/* .gradeInicial img,
 .gradeInicial-1 img {
     align-items: center;
     width: 100%;
     height: auto;
     border-radius: 10px;
-}
+}  */
