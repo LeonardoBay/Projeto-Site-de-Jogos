@@ -73,7 +73,7 @@ nav>ul>button {
 
 
 
-nav > button > img {
+nav>button>img {
     width: 1px;
 }
 
@@ -154,7 +154,9 @@ main>.container>.linha1,
     color: black;
     text-align: center;
     border-radius: 6px;
+    border: 5px solid #5C60FF;
     width: 220px;
+    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
 }
 
 .jogos button {
@@ -166,9 +168,18 @@ main>.container>.linha1,
     color: white;
 }
 
-.jogos .padding {
+.padding {
     padding-bottom: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.padding button {
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
 }
 
 .jogos p {
@@ -182,16 +193,48 @@ main>.container>.linha1,
 }
 
 .jogos img {
-    width: 220px;
+    width: 213px;
+    border-radius: 3px;
 }
 
 .estudio .titulos {
-    padding: 20px; 
+    padding: 20px;
 }
 
-section > h1 {
+section>h1 {
     font-size: 50px;
     padding-bottom: 60px;
 }
 
+.verMais {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.verMais button {
+    background-color: #5B3BB8;
+    border-radius: 7px;
+    border: 2px solid #FFF;
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    height: 37px;
+    margin: 15px;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+.destaque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.tituloDestaque {
+    text-align: left; 
+}
+
+.imagemDestaque img {
+    border: 3px solid #FFF;
+    border-radius: 15px;
+}
