@@ -1,3 +1,4 @@
+/* ==================== BODY =========================================================== */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 html,
 body {
     height: 100%;
-    background: linear-gradient(#444DFF, #2a2cc2, #090a57);
+    background: linear-gradient(#444dff, #2a2cc2, #090a57);
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: white;
@@ -65,6 +66,10 @@ nav>ul>button {
     width: 100px;
     height: 37px;
     filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+button:hover {
+    background-color: #4a3098;
 }
 
 .botaoImagem img {
@@ -184,6 +189,10 @@ main>.container>.linha1,
     margin-top: 5px;
 }
 
+.padding button:hover {
+    background-color: #3b3dad;
+}
+
 .jogos p {
     color: #000;
     text-align: center;
@@ -225,6 +234,10 @@ section>h1 {
     filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 }
 
+.verMais button:hover {
+    background-color: #4a3098;
+}
+
 .destaque {
     display: flex;
     flex-direction: column;
@@ -255,6 +268,7 @@ footer {
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 footer p {
@@ -266,11 +280,11 @@ footer p {
 
 footer .logoFooter {
     position: relative;
-    height: 99px; /
+    height: 99px;/
 }
 
 .logoFooter img {
     position: absolute;
-    top: -70px; 
+    top: -70px;
     width: 170px;
 }

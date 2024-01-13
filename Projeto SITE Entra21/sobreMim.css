@@ -1,0 +1,120 @@
+/* ========================== BODY =========================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html, body {
+    background: linear-gradient(#444DFF, #5B3BB8);
+    height: 100%;;
+}
+
+/* ==================================== NAV =========================================================== */
+
+nav {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    flex-shrink: 0;
+    border-bottom: 2px solid #FFF;
+    background: #5153e0;
+    border-radius: 3px;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+nav>img {
+    align-self: flex-start;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+nav>ul>input {
+    flex-grow: 1;
+    min-width: 480px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #EBEAEA;
+    border: 2px solid #5B3BB8;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+nav>ul>button {
+    background-color: #5B3BB8;
+    border-radius: 30px;
+    border: 2px solid #FFF;
+    color: white;
+    font-size: 17px;
+    width: 100px;
+    height: 37px;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+}
+
+button:hover {
+    background-color: #4a3098;
+}
+
+.botaoImagem img {
+    width: 19px;
+    align-items: center;
+}
+
+nav>button>img {
+    width: 1px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1, .container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.container1 {
+    margin-right: 600px;
+}
+
+
+.container2 {
+    margin-left: 400px;
+}
+
+.container_texto {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.container_texto h1 { 
+    width: 300px;
+    padding-bottom: 7px;
+}
+
+.container_texto p { 
+    width: 300px;
+    padding-left: 10px;
+
+}
+
+
+
