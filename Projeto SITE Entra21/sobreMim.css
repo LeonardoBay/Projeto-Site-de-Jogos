@@ -8,7 +8,7 @@
 
 html, body {
     background: linear-gradient(#444DFF, #5B3BB8);
-    height: 110%;
+    height: 101%;
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: white;
@@ -108,7 +108,7 @@ main {
 }
 
 .container1 img {
-    width: 250px;
+    width: 180px;
     filter: drop-shadow(2px 2px 8px rgb(0, 0, 0));
 }
 .container2 {
@@ -121,7 +121,7 @@ main {
 }
 
 .container2 img {
-    width: 350px;
+    width: 250px;
     filter: drop-shadow(2px 2px 8px rgb(0, 0, 0));
 }
 
