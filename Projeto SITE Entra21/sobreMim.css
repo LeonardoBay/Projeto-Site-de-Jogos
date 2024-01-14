@@ -8,6 +8,10 @@
 
 html, body {
     background: linear-gradient(#444DFF, #5B3BB8);
+    height: 110%;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: white;
 }
 
 /* ==================================== NAV =========================================================== */
@@ -110,7 +114,7 @@ main {
 .container2 {
     margin-left: 400px;
     padding: 20px;
-    padding-bottom: 60px;
+    margin-bottom: 35px;
     background-color: #5a3bb88c;
     filter: drop-shadow(2px 2px 8px rgb(37, 6, 129));
     border-radius: 60px;
@@ -139,13 +143,11 @@ main {
 }
 
 footer {
-    margin-top: 35px;
     background-color: #5153e0;
     border-top: 2px solid #FFF;
     background: #5153e0;
     border-radius: 3px;
-    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));   
-    height: 98.986px;
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
 
     display: flex;
     align-items: center;
@@ -159,13 +161,13 @@ footer p {
     text-align: center;
 }
 
-.logoFooter img {
+footer .logoFooter {
     position: relative;
-    width: 170px;
+    height: 99px;/
 }
 
 .logoFooter img {
     position: absolute;
     top: -70px;
-    width: 170;
+    width: 170px;
 }
