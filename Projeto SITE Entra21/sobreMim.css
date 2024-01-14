@@ -8,7 +8,6 @@
 
 html, body {
     background: linear-gradient(#444DFF, #5B3BB8);
-    height: 100%;;
 }
 
 /* ==================================== NAV =========================================================== */
@@ -88,14 +87,20 @@ main {
 
 .container1, .container2 {
     display: flex;
+    margin-top: 30px;
     flex-direction: row;
     align-items: center;
     gap: 100px;
+    border: 30px white;
 }
 
 .container1 {
     margin-right: 600px;
-    padding: 40px;
+    background-color: #5a3bb88c;
+    filter: drop-shadow(2px 2px 8px rgb(37, 6, 129));
+    border-radius: 60px;
+    padding: 20px;
+    
 }
 
 .container1 img {
@@ -104,7 +109,11 @@ main {
 }
 .container2 {
     margin-left: 400px;
-    padding: 40px;
+    padding: 20px;
+    padding-bottom: 60px;
+    background-color: #5a3bb88c;
+    filter: drop-shadow(2px 2px 8px rgb(37, 6, 129));
+    border-radius: 60px;
 }
 
 .container2 img {
@@ -115,6 +124,7 @@ main {
 .container_texto {
     font-size: 1.2rem;
     color: white;
+    font-family: Arial, sans-serif;
 }
 
 .container_texto h1 { 
@@ -129,11 +139,13 @@ main {
 }
 
 footer {
+    margin-top: 35px;
     background-color: #5153e0;
     border-top: 2px solid #FFF;
     background: #5153e0;
     border-radius: 3px;
-    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));
+    filter: drop-shadow(2px 2px 2px rgb(0, 0, 0));   
+    height: 98.986px;
 
     display: flex;
     align-items: center;
@@ -147,10 +159,13 @@ footer p {
     text-align: center;
 }
 
-footer .logoFooter {
+.logoFooter img {
     position: relative;
-    height: 99px;/
+    width: 170px;
 }
 
-
-
+.logoFooter img {
+    position: absolute;
+    top: -70px;
+    width: 170;
+}
