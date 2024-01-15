@@ -295,3 +295,7 @@ footer .logoFooter {
     top: -70px;
     width: 170px;
 }
+
+a:hover {
+  color: white;  
+}
